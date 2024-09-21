@@ -104,13 +104,14 @@ main {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 footer{
-  width:100%;
+  width:100vw;
   height:100px;
-  position:absolute;
+  position:fixed;
   justify-content:center;
   padding:0;
   background-color: #2a2a40;
-  top: 100%;
+  bottom:0;
+  left:0;
 }
 .contacts li{
   color:#dfdfe2;
