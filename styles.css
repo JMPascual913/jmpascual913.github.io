@@ -103,19 +103,20 @@ main {
 .zoom:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-.contacts{
+footer{
   width:100%;
   height:100px;
   position:absolute;
   justify-content:center;
   padding:0;
-  top: 100%;
-  list-style-type:none;
   background-color: #2a2a40;
+  top: 100%;
 }
 .contacts li{
   color:#dfdfe2;
   text-align:center;
 }
-
+.contacts{
+  list-style-type:none;
+}
 
