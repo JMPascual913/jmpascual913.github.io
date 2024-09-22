@@ -1,4 +1,14 @@
 @media screen and (max-width: 600px) {
+  .projects-table tr td img{
+    width:100px;
+  }
+  header{
+    font-size: 13px;
+  }
+
+}
+@media screen and(max-width:400px) {
+  
 }
 html{
  box-sizing:border-box;
@@ -12,6 +22,9 @@ header{
   justify-content: space-between;
   position: fixed;
   top: 0;
+}
+main{
+  min-height: calc(100vh - 100px);
 }
 h1 {
   border-bottom: 4px solid #dfdfe2;
@@ -89,8 +102,11 @@ main {
   background-color: gray;
 }
 .projects-table{
+  height:100%;
   align-items:center;
-  margin:30px auto;
+  margin: 25px auto 50px auto;
+  position:relative;
+  z-index: -1;
 }
 .projects-table tr td{
   padding:5px;
@@ -105,13 +121,14 @@ main {
 }
 footer{
   width:100vw;
-  height:100px;
-  position:fixed;
+  display: flex;
+  flex-wrap: wrap;
   justify-content:center;
-  padding:0;
   background-color: #2a2a40;
-  bottom:0;
-  left:0;
+
+}
+.contacts{
+  padding:0;
 }
 .contacts li{
   color:#dfdfe2;
