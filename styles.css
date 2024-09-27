@@ -113,6 +113,7 @@ main {
 }
 .zoom{
   width:250px;
+  aspect-ratio: 2/1.5;
   transition: transform .2s;
 }
 .zoom:hover {
